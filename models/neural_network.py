@@ -73,7 +73,7 @@ plt.title('Model Accuracy')
 plt.ylabel('Accuracy')
 plt.xlabel('Epoch')
 plt.legend(['Train', 'Validation'], loc='upper left')
-plt.savefig('nn_accuracy.pdf')
+plt.savefig('results/nn_accuracy.pdf')
 plt.show()
 
 # Plot training & validation loss values
@@ -84,7 +84,7 @@ plt.title('Model Loss')
 plt.ylabel('Loss')
 plt.xlabel('Epoch')
 plt.legend(['Train', 'Validation'], loc='upper left')
-plt.savefig('nn_loss.pdf')
+plt.savefig('results/nn_loss.pdf')
 plt.show()
 
 # Save model architecture as a PDF
